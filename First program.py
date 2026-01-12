@@ -58,17 +58,7 @@ if(num % 7 == 0):
     print("number is mltiple of 7")
 else:
     print("number is not multiple of 7")    
-
-
-#Tuples (immutable)
-tup = (1,2,3)
-print(tup[1])   # in tuples also we have index method. 
-# single tuples must write in this way - (1,) while writting single element tuple comma is compulsory. 
-# tuple methods. 
-
-tup = (1,4,5,3)
-print(tup.index(3))
-print(tup.count(3))
+ 
 
 # write a program to ask a user to enter names of 3 fav movies & store them into the list. 
 
