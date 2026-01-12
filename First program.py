@@ -90,26 +90,6 @@ else:
 grade = ("C","D","A","A","B","B","A")
 print(grade.count("A"))
 
-# dictionaries 
-#skeleton of dictionaries is like a.....
-dict = {
-    "key" : "value" 
-}
-print(dict)
-# for example :-
-info = {
-    "rohit" : "45",
-    "subject" : ["em","pp","cp"],
-    "roll no." : ("3","5","5","8","9"),
-    "cricket" : "cricketers"
-}
-print(info)
-print(type(info))
-
-# empty dict. 
-student = {}
-print(student)
-print(type(student))
 # nested dictionaries. 
 student =  {
     "name" : "rohit",
@@ -118,7 +98,7 @@ student =  {
         "chem" : "2",     
         "maths" :"3",
     }
-    }
+}
 print(student)
 print(student["subject"])
 print(dict.keys())  # return all keys 
