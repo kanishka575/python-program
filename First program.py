@@ -19,12 +19,6 @@ a = int(input("enter a value:"))
 b = int(input("enter a value:"))
 print(a>=b)
 
-
-#this is slicing index concept. (while using this starting index is included but ending index is not included.)
-print(str[0:3])  # counting get start from 0 and ends at 3 index no. 
-print(str[:3])   # counting get start from 0 and ends at 3 index no. 
-print(str[0:])   # counting get start from 0 and ends at last letter of string. 
-
 #sring methods 
 str = "kanishka"
 print(str.upper())  # upper sting method is also called as capitalise function or method. Basically its function is it make the first letter capital. 
