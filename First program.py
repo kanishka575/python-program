@@ -19,15 +19,6 @@ a = int(input("enter a value:"))
 b = int(input("enter a value:"))
 print(a>=b)
 
-#sring methods 
-str = "kanishka"
-print(str.upper())  # upper sting method is also called as capitalise function or method. Basically its function is it make the first letter capital. 
-print(str.lower())  # it makes the first letter in small case if it is capital. 
-print(str.replace("k","t")) # it repalce k by t 
-print(str.find("i")) #it find that letter or word from string.  
-print(str.strip())  # strip remove the wide spaces.
-print(str.count("k")) # it counts that this letter found how many times in the strings. 
-
 # write a program to input user's first name & print ts length. 
 name = input("enter a name:")
 print("length of your name is",len(name))
@@ -35,38 +26,9 @@ print("length of your name is",len(name))
 # write a program to find the ocurrence of $ in a string. 
 str = "i am a masterpiece of million $ & for selling for trillion $ " 
 print(str.count("$"))
+           
 
-# conditional statements. 
-# if,elif,else
-#Example 1:-
-light = "green" 
-
-if(light == "red"):
-    print("stop")
-elif(light == "green"):
-    print("go")
-elif(light == "yellow"):
-    print("start")
-else:
-    print("light is broken")        
-
-    print ("code is ended")
-    
-#Example 2:-
-marks = int(input("enter a marks:"))
-
-if(marks >= 90):
-    print("grade A")
-elif(marks >= 80 and marks < 90):
-    print("grade B")
-elif(marks >= 70 and marks < 80):
-    print("grade C")
-else:
-    print("grade D")
-
-    print("code is completed")             
-
-# nesting (loop ke andar loop is nesting )    
+# nesting (loop inside the loop is basically the nesting )    
 age = 90
 
 if(age >= 18):
