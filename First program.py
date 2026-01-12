@@ -20,14 +20,6 @@ b = int(input("enter a value:"))
 print(a>=b)
 
 
-#indexing / index function 
-str = "kanishka"
-print(str[3])
-print(str[2])
-print(str[-6])   # in this type counting will get start from (backside) reverse of the string. 
-print(str[5])
-print(str[6])
-
 #this is slicing index concept. (while using this starting index is included but ending index is not included.)
 print(str[0:3])  # counting get start from 0 and ends at 3 index no. 
 print(str[:3])   # counting get start from 0 and ends at 3 index no. 
