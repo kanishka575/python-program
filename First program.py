@@ -169,23 +169,6 @@ while idx < len(num):
     print(num[idx])
     idx += 1
 
-# Break 
-i = 1
-while i <= 5:
-    print(i)
-    if(i == 5):
-        break
-    i += 1 
-
-
-# continue 
-i = 0
-while i <= 5:
-    if(i==3):
-        i += 1
-        continue
-    print(i)
-    i += 1 
 # if we want to print odd no. 
 i = 0 
 while i <= 10:
@@ -204,15 +187,16 @@ while i <= 10:
     print(i)    
     i += 1
 
-# For Loop 
-list = [1,2,3,4,5]
-for num in list:
-    print(num)  
-
-tup = (1,2,3,4)
-for num in tup:
-    print(num)
-
+# for loop 
+list = [45,45,45]
+for n in list:
+    print(n)
+# 
+list = [4,5,9]
+for n in list:
+    print(n)
+else:
+    print("End")        
 
 # we can also print a else when we use break in loop.
 tup = (1,2,3,4)
@@ -235,7 +219,14 @@ idx = 0
 for num in tup:
     if(num == x):
         print("number found at idx",idx)
-    idx += 1    
+    idx += 1    # For Loop 
+list = [1,2,3,4,5]
+for num in list:
+    print(num)  
+
+tup = (1,2,3,4)
+for num in tup:
+    print(num)
 
 
 # range 
