@@ -122,20 +122,6 @@ print(marks)
 set = [9,"9.0"]
 print(set)
 
-# LOOP 
-# While Loop 
-count = 1
-while count <= 5 :
-    print("hello")
-    count += 1
-
-
-count = 1
-while count <= 5 :
-    print("hello",count)
-    count += 1
-
-
 # write a program to print a no. from 1 to 5.     
 i = 1
 while i <= 5:
