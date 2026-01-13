@@ -90,19 +90,6 @@ else:
 grade = ("C","D","A","A","B","B","A")
 print(grade.count("A"))
 
-
-# sets method. 
-# sets is mutable but the elements in the sets are immutable. 
-
-
-student = set()
-print(student.add(1))
-print(student.add(2))      # add the item
-print(student.remove(1))   # remove the item
-print(student.clear())    # empties the set
-print(student.pop())      # remove the random values
-print(student)
-
 # write a program to store a following word meanings in python dictionary. 
 Dict = {
     "table" : ["a piece of furniture","list of facts & figures"],
