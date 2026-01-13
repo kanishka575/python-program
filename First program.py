@@ -91,16 +91,6 @@ grade = ("C","D","A","A","B","B","A")
 print(grade.count("A"))
 
 
-# sets 
-set = {1,2,3,4,"45"}
-print(set)
-print(type(set))
-print(len(set))  # total no. of items. 
-
-# empty set. 
-student = set() 
-print(student)
-
 # sets method. 
 # sets is mutable but the elements in the sets are immutable. 
 
