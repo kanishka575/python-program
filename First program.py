@@ -185,18 +185,7 @@ while i <= 10:
         i += 1
         continue
     print(i)    
-    i += 1
-
-# for loop 
-list = [45,45,45]
-for n in list:
-    print(n)
-# 
-list = [4,5,9]
-for n in list:
-    print(n)
-else:
-    print("End")        
+    i += 1       
 
 # we can also print a else when we use break in loop.
 tup = (1,2,3,4)
