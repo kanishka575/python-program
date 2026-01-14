@@ -224,10 +224,6 @@ for i in range(1,11,+1):
         print(n*i)
 
 
-#pass statement. we create empty loop over here 
-for i in range(5):
-    pass
-
 #WAP to find a sum of first n natural no.  
 n = int(input("enter a number:"))
 sum = 0
