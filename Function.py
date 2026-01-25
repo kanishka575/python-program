@@ -1,6 +1,6 @@
 # function 
 # write a program of function to calculate sum of 2 no.  
-def sum(a,b):  # parameters 
+def sum(a,b):  # parameters (defining function) 
     s = a + b
     print("s = ",s)
     return s

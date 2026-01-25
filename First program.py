@@ -55,11 +55,10 @@ else:
 num = int(input("enter a number:"))
 
 if(num % 7 == 0):
-    print("number is mltiple of 7")
+    print("number is multiple of 7")
 else:
     print("number is not multiple of 7")    
  
-
 # write a program to ask a user to enter names of 3 fav movies & store them into the list. 
 
 movies = []
@@ -250,13 +249,6 @@ for i  in range (1,n+1,+1):
     fact *= i
 print("factorial is:",fact)
 
-# function 
-# write a program of function to calculate sum of 2 no.  
-def sum(a,b):  # parameters 
-    s = a + b
-    print("s = ",s)
-    return s
-sum(4,5) # fuction call
 
 # average of 3 no. 
 def avg(a,b,c):
@@ -274,7 +266,7 @@ def print_len(list):
 print_len(list1)
 print_len(list2)
 
-# write a function in one line. 
+# WAF to print he element of a list in single line. 
 list1 = ["delhi","mussorie"]
 list2 = ["capital","city"]
 def print_len(list):
@@ -295,3 +287,34 @@ for i in range(1,n+1,+1):
     fact *= i
     print(fact)
 fact(5)
+
+# WAF to convert USD To INR. 
+def Exchange_rate(usd_val):
+    inr_val = usd_val * 91.83
+    print(usd_val,"USD =",inr_val,"INR")
+    return Exchange_rate
+
+    Exchange_rate(5)
+
+def input(num):
+    if num % 2==0:
+        return "Even"
+    else:
+        return "Odd"   
+    num =int(input("enter a number:"))
+    print(input(num)) 
+
+# can also write 
+def check_odd_even(n):
+    return "Even" if n % 2 == 0 else "Odd"    
+
+
+# Recurssion. 
+def show(n):
+    if(n==0):
+        return
+    print(n)
+    show(n-1)
+
+    show(5)
+    
